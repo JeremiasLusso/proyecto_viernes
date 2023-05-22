@@ -1,0 +1,127 @@
+*{background-color: beige;}
+.campo{
+    background-color: white;
+}
+.encabezado{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+}
+a:hover
+{
+    color: blue;
+}
+.parrafo1
+{
+    border-color: black;
+    display: flex;
+    align-items: center;
+}
+#img2{
+    float: right;
+    padding: 3px;
+    margin:10px;
+}
+
+#img1{
+    float: left;
+    margin: 20px;
+    padding: 3px;
+}
+
+/*#parrafo_2{
+    float: left;
+    margin: 20px
+}*/
+
+.parrafo2
+{
+    text-align:start
+}
+
+#formulario{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+}
+
+#Enviar_contacto
+{
+    background-color: blue;
+    color: white;
+    margin: 5px;
+    margin-left: 140px;
+}
+#Enviar_contacto:hover
+{
+    background-color: black;
+    color: white;
+}
+
+#opciones
+{
+    background-color: white;
+}
+
+#nombre
+{
+    margin: 5px;
+}
+
+#DNI{
+    margin: 5px;
+    margin-left: 28px;
+}
+
+#email{
+    margin: 5px;
+    margin-left: 18px;
+}
+
+#edad {
+    margin: 5px;
+    margin-left: 23px;
+}
+
+#opciones {
+    margin: 5px;
+    margin-left: 29px;
+}
+
+.fotos{
+    height: 90px;
+    width: fit-content;
+    display: flexbox;
+}
+
+#facebook{
+    margin-right: 500px;
+}
+
+#Twitter{
+    margin-right: 450px;
+}
+
+.links_redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+#link_f{
+    margin-left: 20px;
+}
+
+#link_t{
+    margin-left: 50px;
+}
